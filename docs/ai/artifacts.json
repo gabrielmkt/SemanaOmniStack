@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "artifacts": [
+    {
+      "id": "nav:navigate:0",
+      "type": "nav-link",
+      "data": {
+        "fromFile": "src/pages/Main.js",
+        "toRoute": "Profile",
+        "linkType": "navigate"
+      }
+    },
+    {
+      "id": "page:/Main",
+      "type": "page",
+      "domain": "uncategorized",
+      "data": {
+        "route": "/Main",
+        "filePath": "src/pages/Main.js",
+        "router": "pages"
+      }
+    },
+    {
+      "id": "page:/Profile",
+      "type": "page",
+      "domain": "users",
+      "data": {
+        "route": "/Profile",
+        "filePath": "src/pages/Profile.js",
+        "router": "pages"
+      }
+    }
+  ]
+}
