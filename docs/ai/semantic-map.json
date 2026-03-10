@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "generatedAt": "2026-03-10T17:09:54.203Z",
+  "stacks": [
+    {
+      "name": "Next.js",
+      "confidence": "low",
+      "signals": [
+        "pages/ directory present (Pages Router)"
+      ]
+    },
+    {
+      "name": "React Native",
+      "confidence": "high",
+      "signals": [
+        "react-native in package.json dependencies",
+        "expo in package.json dependencies",
+        "expo config in app.json"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "name": "api",
+      "features": [],
+      "filePaths": [
+        "src/routes.js",
+        "src/services/api.js"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "common",
+      "features": [],
+      "filePaths": [
+        ".expo-shared/assets.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "settings",
+      "features": [],
+      "filePaths": [
+        "babel.config.js"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "uncategorized",
+      "features": [],
+      "filePaths": [
+        "App.js",
+        "app.json",
+        "assets/Keys.json",
+        "package.json",
+        "src/pages/Main.js",
+        "src/services/socket.js"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "users",
+      "features": [],
+      "filePaths": [
+        "src/pages/Profile.js"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "skippedFiles": []
+}
