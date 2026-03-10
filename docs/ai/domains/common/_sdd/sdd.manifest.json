@@ -1,0 +1,36 @@
+{
+  "domain": "common",
+  "version": "1",
+  "token_budget_target": 16000,
+  "generatedAt": "2026-03-10T16:53:44.360Z",
+  "chunks": [
+    {
+      "file": "sdd.packs/pack.domain.md",
+      "type": "domain"
+    },
+    {
+      "file": "sdd.packs/pack.features.md",
+      "type": "features"
+    },
+    {
+      "file": "sdd.packs/pack.endpoints.md",
+      "type": "endpoints"
+    },
+    {
+      "file": "sdd.packs/pack.rules.md",
+      "type": "rules"
+    },
+    {
+      "file": "sdd.packs/pack.flows.md",
+      "type": "flows"
+    },
+    {
+      "file": "sdd.entrypoints.md",
+      "type": "entrypoints"
+    },
+    {
+      "file": "sdd.rules.csv",
+      "type": "rules_csv"
+    }
+  ]
+}
